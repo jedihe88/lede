@@ -60,7 +60,7 @@ jobs:
           ./scripts/feeds update -a
           ./scripts/feeds install -a
       - name:涡轮增雕进程
-        run: | 
+        run: |
           cd package
           mkdir openwrt-packages
           cd openwrt-packages
